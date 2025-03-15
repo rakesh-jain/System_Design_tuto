@@ -1,4 +1,4 @@
-package oops;
+package oops.association;
 
 /**
  * Association is a relationship between two or more classes that allows one object to interact with another.

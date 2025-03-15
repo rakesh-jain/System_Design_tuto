@@ -20,7 +20,7 @@ will equip you with the knowledge you need.
 - 🔹 **Requests per second (RPS/QPS):** Tracking the number of requests your system can handle.
 - 🔹 **System Uptime (99.9%, 99.99%, etc.):** Evaluating the reliability of your system.
 
-## 2️⃣ Load Balancing
+## 2️⃣ Load Balancing 🖧 🏋
 
 📌 **Why?** Distributes incoming traffic across multiple servers to prevent overload.
 
@@ -54,12 +54,12 @@ will equip you with the knowledge you need.
 - **Write-back:** Updates the cache and writes to the database later.
 - **Least Recently Used (LRU):** Evicts the least recently used items from the cache.
 
-### CDN (Content Delivery Network)
+### CDN (Content Delivery Network) 🌐
 
 - Distributes static content globally.
 - Examples: Cloudflare, Akamai, AWS CloudFront.
 
-## 4️⃣ Database Design
+## 4️⃣ Database Design ⛃
 
 📌 **Choosing the right database:**
 
@@ -73,12 +73,12 @@ will equip you with the knowledge you need.
 - Schema-less, scalable.
 - Used for high-volume, unstructured data (social media, logs).
 
-### Sharding vs. Replication
+### Sharding vs. Replication 👥
 
 - **Sharding:** Partitioning data across multiple servers.
 - **Replication:** Copying data across multiple servers.
 
-## 5️⃣ Microservices & API Design
+## 5️⃣ Microservices🧩 & API Design
 
 📌 **Microservices vs. Monoliths**
 
@@ -101,7 +101,7 @@ will equip you with the knowledge you need.
 - API Key-based access.
 - Rate Limiting using Redis.
 
-## 6️⃣ Message Queues & Event-Driven Architecture
+## 6️⃣ Message Queues»» & Event-Driven Architecture 
 
 📌 **Why?** Decouples services, increases reliability.
 

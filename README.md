@@ -1,4 +1,4 @@
-System Desing Pattern
+System Desing 
 1️⃣ Fundamentals of System Design
 Key Concepts
 ✅ Scalability (Vertical vs. Horizontal)

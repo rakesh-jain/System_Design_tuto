@@ -21,7 +21,6 @@ package oops.aggregation;
  */
 
 public class Laptop {
-
     private String brand;
     private Processor processor;
     private Battery battery;

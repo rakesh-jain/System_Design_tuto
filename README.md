@@ -101,7 +101,7 @@ will equip you with the knowledge you need.
 - API Key-based access.
 - Rate Limiting using Redis.
 
-## 6️⃣ Message Queues»» & Event-Driven Architecture 
+## 6️⃣ Message Queues» & Event-Driven Architecture 
 
 📌 **Why?** Decouples services, increases reliability.
 

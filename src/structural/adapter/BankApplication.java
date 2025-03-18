@@ -10,31 +10,30 @@ abstract class Bank {
         this.code = code;
     }
 
-     void getBankDetails(){
-         System.out.println("Bank Name"+bankName +"\n Code:"+code);
-     }
+    void getBankDetails() {
+        System.out.println("Bank Name" + bankName + "\n Code:" + code);
+    }
 
 }
 
-class HDFTBank extends Bank{
+class HDFTBank extends Bank {
     public HDFTBank(String bankName, String code) {
         super(bankName, code);
     }
 }
 
-class ICBank extends Bank{
+class ICBank extends Bank {
     public ICBank(String bankName, String code) {
         super(bankName, code);
     }
 }
 
 interface CreditCard {
-   void getCreditCard();
+    void getCreditCard();
 }
 
 
-
-class Customer implements CreditCard{
+class Customer implements CreditCard {
     private Bank bank;
 
     public Customer(Bank bank) {
@@ -43,8 +42,8 @@ class Customer implements CreditCard{
 
     @Override
     public void getCreditCard() {
-     bank.getBankDetails();
-     System.out.println("credit card issued");
+        bank.getBankDetails();
+        System.out.println("credit card issued");
     }
 }
 

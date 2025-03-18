@@ -2,6 +2,10 @@ package structural.facade;
 
 import java.util.Random;
 
+/**
+ * The Facade Design Pattern is a structural design pattern that provides a simplified interface to a complex system of classes, libraries, or frameworks.
+ * It hides the complexities of the underlying system and provides a unified, easy-to-use interface to the client.
+ */
 interface HotelService {
     void cleaning(int roomNum);
 
@@ -112,7 +116,7 @@ class RestaurantService {
     }
 }
 
-// ✅ Facade Class
+//  Facade Class
 public class Receptionist implements HotelService {
 
     private RoomServices roomServices;

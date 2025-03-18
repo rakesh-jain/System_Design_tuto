@@ -88,6 +88,3 @@ class MediaPlayerApplication {
         audioPlayer.player("vlc", "sdjkhfh");
     }
 }
-
-
-
